@@ -8,9 +8,4 @@ function rever(arr){
     return arr;
 }
 
-
-
-
-var arr=[10,65,34,89,15];
-var res=rever(arr);
-console.log(res);
+module.exports=rever;
