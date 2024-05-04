@@ -1,8 +1,9 @@
-/*---------------  Anonymous fun && Group function  -----------------------------------------------*/
+/*---------------  Anonymous fun && Group function && self invokation fun -----------------------------------------------*/
 // var result = (function(x,y){
 //     return x + y;
-// })(5,6);
+// })(5,6);//revok
 // console.log("result :", result);
+
 /*-----------------------  call back  --------------------------------------*/
 // function print(x) {
 //     for (let i = 0; i < 10; i++) {
@@ -24,6 +25,7 @@
 // }
 // var result = add(2, 5);
 // console.log(result);
+
 /*------------------call back -----------------------------------*/
 // function f1(x) {
 //     console.log(x);
