@@ -1,5 +1,5 @@
 
- #different kind of functions
+ # different kind of functions
 1.anomimes 
 2.closer 
 3.function grouping 
