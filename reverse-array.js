@@ -1,4 +1,4 @@
-function rever(arr){
+exports.rever =function rever(arr){
     let temp=0;
     for(let i=0,j=arr.length-1;i<j;i++,j--){
          temp=arr[i];
@@ -8,4 +8,4 @@ function rever(arr){
     return arr;
 }
 
-module.exports=rever;
+// module.exports.rever = rever;
