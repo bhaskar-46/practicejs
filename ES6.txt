@@ -1,0 +1,14 @@
+TOPICS IN ES6 :
+
+-let keyword
+-constant keyword --const 
+-Arrow function
+-spread(...) Operation //-----??
+-for/of loop
+-js maps
+-set creation set()
+-js class --class name and constructor
+-using class  --like creat object and send datta to the constructor with equal parameters
+-
+
+

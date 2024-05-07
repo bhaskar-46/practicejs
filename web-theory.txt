@@ -1,0 +1,102 @@
+1.how internet works?
+
+The internet works by /*--allowing computers to exchange information using wires, cables, radio waves,
+ and other networking infrastructure-----*/. 
+ When a computer sends a message to another computer,the message is broken down into smaller chunks 
+ called packets. These packets are then sent 
+ through a protocol stack, which has several layers:
+Internet Protocol Layer: Directs packets to a specific computer using an IP address
+Hardware Layer: Converts binary packet data to network signals and back
+--------------------------------------------------------------------------------------------------------------------
+2.how web works?
+
+The web works by using a client-server model, where a web browser sends a request to a web server and 
+receives a response. The four basic steps of how the web works are:
+1. URL resolution
+The browser translates the domain name into an IP address to find the server where the web page is stored.
+2. Request sent
+The browser sends an HTTP request to the server, specifying the path and parameters of the requested resource.
+3. Response parsed
+The web server receives the request and checks for the desired page. If the page exists, the web server sends it.
+ If the server cannot find the requested page, it will send an HTTP 404 error message. An HTTP response consists 
+ of three parts: a status code, response headers, and the response body. The status code indicates whether 
+ the request was successful.
+4. Page displayed
+The web server returns the page to the IP address specified by the browser requesting the page. 
+The page may also contain links to other files on the same server, such as images, which the browser 
+will also request.
+--------------------------------------------------------------------------------------------------------------------
+3.how browser works?
+
+When a user enters a URL or clicks a link, the browser retrieves the web content from a server 
+and displays it on the device.
+
+Here's how a browser works:
+1.The user enters a URL or clicks a link
+2.The browser requests the DNS to find the website's IP address
+3.The browser sends HTTP messages to the correct server
+4.The web server sends a copy of the files using HTTP
+5.The browser uses a rendering engine to translate the HTML into text and images
+6.For example, if the HTML has a hyperlink for an image, the browser uses that 
+link to access the image and display it on the website
+--------------------------------------------------------------------------------------------------------------------
+4.how web app works?
+
+Web applications, or web apps, work by following a client-server architecture:
+1.A user sends a request to a web server using a web browser or the app's user interface
+2.The web server forwards the request to the web application server
+3.The web application server performs the requested task and generates the results
+4.The web application server sends the results back to the web server
+5.The web server sends the requested information to the client's device
+---------------------------------------------------------------------------------------------------------------------
+5.about http and url?
+
+A URL (Uniform Resource Locator) is a string of characters that identify a location on the internet. 
+It is used to locate and access web resources such as HTML documents, images, and videos. 
+HTTP (Hypertext Transfer Protocol) is a protocol for transferring data over the internet.
+--------------------------------------------------------------------------------------------------------------------
+6.http methods and status codes?
+
+HTTP methods are verbs that indicate what action should be taken on a resource. 
+Common methods include GET (retrieve data), POST (submit data), PUT (update or replace data), 
+DELETE (remove data), PATCH (apply partial modifications), HEAD (retrieve headers), and 
+OPTIONS (retrieve server capabilities).
+
+HTTP status codes are three-digit numbers returned by a server to indicate the outcome of a request. 
+They range from 1xx (informational) to 5xx (server error). Common codes include 200 (OK - successful request), 
+201 (Created - new resource created), 400 (Bad Request - client error), 404 (Not Found - resource not found),
+ and 500 (Internal Server Error - server error).
+ -------------------------------------------------------------------------------------------------------------------
+ 7.architectural patterns?
+
+ design --> develop
+ -------------------------------------------------------------------------------------------------------------------
+ 8.web services?
+
+ Web services are software components that allow machine- or application-oriented interaction over a network. 
+ They are self-contained applications that can be described, published, located, and invoked over a network. 
+ Web services are built from open, well-established protocols and standards. They are typically heavier and 
+ demand more bandwidth or compute overhead than APIs.
+ -------------------------------------------------------------------------------------------------------------------
+ 9.url urn and uri example?
+
+ URL
+A Uniform Resource Locator (URL) is a URI that identifies a web resource, its location, and how to access it. 
+For example, https://www.example.com is a URL.
+
+URI
+A Uniform Resource Identifier (URI) is a universal identifier for resources on the internet. 
+All URLs and URNs are URIs, but not all URIs are URLs or URNs. 
+For example,urn:isbn:0451450523 is a URI that identifies a book by its ISBN.
+
+URN
+A Uniform Resource Name (URN) is a specific form of URI that has urn as its scheme. 
+For example, urn:isbn:0-476-27557-4 is a URI. 
+--------------------------------------------------------------------------------------------------------------------
+10.REST API Introduction?
+
+Representational State Transfer (REST) is an architectural style that defines a set of constraints to
+ be used for creating web services. REST API is a way of accessing web services in a simple and flexible way 
+ without having any processing.
+--------------------------------------------------------------------------------------------------------------------
+
